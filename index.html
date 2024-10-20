@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+<body class="bg-slate-800">
+    <div class="mainWrapper h-screen w-auto flex justify-center items-center 
+    bg-yellow-500 p-2">
+
+        <div class="result font-bold font-mono">
+            <ol class="taskList list-decimal">
+            </ol>
+        </div>
+
+        <div class="initMessage h-60">
+            <h1 class="text-lg font-bold font-mono">Welcome To your To-do-list</h1>
+            <div class="initInstructions
+            h-28 justify-center items-center my-4">
+                <h3>Click + to add to your list</h3>
+                <h3>Click - to remove from your list</h3>
+            </div>
+        </div>
+
+        <div class="AddRemoveButtons">
+            <div class="AddBtn bg-slate-300 
+            h-10 w-10 rounded-lg flex justify-center absolute bottom-0 right-0 mx-5 my-5
+            hover:bg-slate-600 hover:text-white">
+                <button id="addbtn" class="h-9 w-9">+</button>
+            </div>
+            <div class="RemoveBtn bg-slate-300 
+            h-10 w-10 rounded-lg flex justify-center absolute bottom-0 left-0 mx-5 my-5
+            hover:bg-slate-600 hover:text-white">
+                <button id="removebtn" class="h-9 w-9">-</button>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
